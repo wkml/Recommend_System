@@ -9,7 +9,7 @@ latent_dimension = 2
 lambda_val = 0.1
 num_iterations = 10
 
-# ALS算法
+
 def als(ratings, latent_dimension, lambda_val, num_iterations):
     # 初始化用户和物品的矩阵
     user_matrix = np.random.rand(num_users, latent_dimension)
